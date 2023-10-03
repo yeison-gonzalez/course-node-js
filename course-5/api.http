@@ -2,7 +2,7 @@
 GET http://localhost:1234/movies
 
 ### Get specific movie by id
-GET http://localhost:1234/movies/e2f98310-58ac-11ee-bd96-0242ac110002
+GET http://localhost:1234/movies/1ded44fa-622c-11ee-9b3f-0242ac110002
 
 ### Get all movies by genre
 GET http://localhost:1234/movies?genre=action
@@ -24,10 +24,10 @@ Content-Type: application/json
 }
 
 ### Delete movie
-DELETE http://localhost:1234/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
+DELETE http://localhost:1234/movies/97f7041b-6234-11ee-9b3f-0242ac110002
 
 ### Update movie
-PATCH http://localhost:1234/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
+PATCH http://localhost:1234/movies/20ec5207-6236-11ee-9b3f-0242ac110002
 Content-Type: application/json
 
 {
